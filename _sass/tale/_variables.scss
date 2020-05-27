@@ -1,3 +1,53 @@
+@charset "UTF-8";
+@font-face {
+ font-family:notosanskr;
+ src:url(fonts/notosanskr/notosanskr-light.woff2) format("woff2"),
+ url(fonts/notosanskr/notosanskr-light.woff) format("woff");
+ font-weight:300
+}
+@font-face {
+ font-family:notosanskr;
+ src:url(fonts/notosanskr/notosanskr-regular.woff2) format("woff2"),
+ url(fonts/notosanskr/notosanskr-regular.woff) format("woff");
+ font-weight:400
+}
+@font-face {
+ font-family:notosanskr;
+ src:url(fonts/notosanskr/notosanskr-medium.woff2) format("woff2"),
+ url(fonts/notosanskr/notosanskr-medium.woff) format("woff");
+ font-weight:500
+}
+@font-face {
+ font-family:notosanskr;
+ src:url(fonts/notosanskr/notosanskr-bold.woff2) format("woff2"),
+ url(fonts/notosanskr/notosanskr-bold.woff) format("woff");
+ font-weight:700
+}
+@font-face {
+ font-family:NanumSquare;
+ src:url(fonts/NanumSquare/NanumSquareL.woff2) format("woff2"),
+ url(fonts/NanumSquare/NanumSquareL.woff) format("woff");
+ font-weight:300
+}
+@font-face {
+ font-family:NanumSquare;
+ src:url(fonts/NanumSquare/NanumSquareR.woff2) format("woff2"),
+ url(fonts/NanumSquare/NanumSquareR.woff) format("woff");
+ font-weight:400
+}
+@font-face {
+ font-family:NanumSquare;
+ src:url(fonts/NanumSquare/NanumSquareB.woff2) format("woff2"),
+ url(fonts/NanumSquare/NanumSquareB.woff) format("woff");
+ font-weight:700
+}
+@font-face {
+ font-family:NanumSquare;
+ src:url(fonts/NanumSquare/NanumSquareEB.woff2) format("woff2"),
+ url(/v5/fonts/NanumSquare/NanumSquareEB.woff) format("woff");
+ font-weight:800
+}
+
 // Colors
 $default-color: #555;
 $default-shade: #353535;
@@ -13,8 +63,12 @@ $code-color: #bf616a;
 // Fonts
 $serif-primary: 'Libre Baskerville', 'Times New Roman', Times, serif;
 $serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
-$sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+$sans-serif: notosanskr, "Source Sans Pro", "APPLE SD Gothic Neo", HelveticaNeue, Helvetica, "NanumGothic", "맑은 고딕", "Malgun Gothic", arial, sans-serif;
 $monospaced: Menlo, Monaco, monospace;
+
+// font-family 정의
+$serif: "Nanum Myeongjo",sans-serif;
+$source: 'Source Sans Pro', sans-serif;
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;
