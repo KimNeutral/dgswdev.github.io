@@ -25,9 +25,13 @@
     color: $default-shade;
     font-family: $sans-serif;
     word-break: keep-all;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0.8rem 0;
     text-align: left;
+
+    @media (min-width: 600px) {
+      font-size: 2rem;
+    }
   }
 
   &-line {
