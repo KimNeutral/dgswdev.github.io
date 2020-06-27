@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "여러분과 함께할 멘토진들을 소개합니다!"
-author: "조현재"
+title:  "가진 것은 이것이야말로 위하여 아니다."
+author: "김대용"
 comments: true
 cover: "http://jihyeleee.com/blog/starting-a-newsletter-for-designsystem/img/header.jpg"
 ---
