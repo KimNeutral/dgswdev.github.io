@@ -78,7 +78,7 @@ td {
     height: 100%;
     background-size: cover;
     background-position: center center;
-    background-image: url("https://woowabros.github.io/img/new-banner.png");
+    background-image: url("/assets/imgs/main-background.jpg");
   }
 
   .dimmed {
@@ -108,7 +108,7 @@ td {
       margin-top: 65px;
     }
 
-    p.text {
+    p.title {
       margin: 6px 0 30px;
       font-size: 2rem;
       font-weight: bold;
@@ -119,6 +119,10 @@ td {
         font-size: 3rem;
         line-height: 4rem;
       }
+    }
+
+    p.sub-title {
+      color: #fff;
     }
 
     a[role="button"] {
