@@ -1,15 +1,14 @@
 # Site settings
-title:          DGSW
-description:    "대구소프트웨어고등학교 졸업생과 재학생간 소통을 위한 블로그"
-url:            "https://dgswdev.github.io"
+title:          Oakk
+description:    "오우크의 개발 블로그"
+url:            "http://oakk.cc"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         대소고 졸업생 연합
-  # url:          https://chester.how
+  name:         김대용
   email:        dev.kimdaeyong@gmail.com
 
 # Build settings
@@ -30,11 +29,11 @@ plugins:
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
-permalink:      /:year-:month-:day/:title
+permalink:      /post/:title
 paginate:       5
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # Disqus (Set to your disqus id)
-disqus:         share-and-dev
+disqus:         oakk-1
